@@ -1,0 +1,10 @@
+USE ContosoRetailDW_2016
+GO 
+
+TRUNCATE TABLE dbo.FactSales_Part
+ WITH (PARTITIONS (2,3))
+
+
+ TRUNCATE TABLE dbo.FactSales_Part
+ WITH (PARTITIONS (4 TO 5 ));
+GO

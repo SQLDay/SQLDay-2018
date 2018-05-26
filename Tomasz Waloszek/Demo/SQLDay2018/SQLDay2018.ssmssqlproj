@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLDay2018">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DELL:Dell\Tomek">
+          <Created>2018-05-03T09:17:11.0837277+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DELL</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0_przygotowanie_srodowiska_ContosoRetailDW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0_przygotowanie_srodowiska_ContosoRetailDW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1_Create_partition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1_Create_partition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_1_SlaidingWindowScenario.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_1_SlaidingWindowScenario.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_2_Partitioning Specifics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_2_Partitioning Specifics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_SQL2016vsSQL2014.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_SQL2016vsSQL2014.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Checking_partition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Checking_partition.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
